@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+     <style>
+        .card{
+            width:20%;
+            height: 10%;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        .image img{
+            width:100%;
+
+        
+       
+    }
+    button{
+        background-color: bisque;
+        
+    }
+        
+     button:hover{
+     background-color: rgb(255, 0, 217);
+        transition: 1s;
+
+     }
+        
+     </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="img_avatar.png" alt=""> 
+             <H4>ROHIT</H4>
+             <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
